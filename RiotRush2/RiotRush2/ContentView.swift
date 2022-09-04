@@ -8,25 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var s1 = 000
-    @State private var s2 = 000
-    @State private var s3 = 000
-    @State private var s4 = 000
-    @State private var s5 = 000
-    @State private var s6 = 000
-    @State private var s7 = 000
-    @State private var s8 = 000
-    @State private var s9 = 000
-    
-    @State private var p1 = ""
-    @State private var p2 = ""
-    @State private var p3 = ""
-    @State private var p4 = ""
-    @State private var p5 = ""
-    @State private var p6 = ""
-    @State private var p7 = ""
-    @State private var p8 = ""
-    @State private var p9 = ""
+    @State private var s1 = ""
+    @State private var s2 = ""
+    @State private var s3 = ""
+    @State private var s4 = ""
+    @State private var s5 = ""
+    @State private var s6 = ""
+    @State private var s7 = ""
+    @State private var s8 = ""
+    @State private var s9 = ""
     
     
     @State private var tokens = 15
@@ -44,75 +34,75 @@ struct ContentView: View {
                 if (betsize < tokens+1) {
                     helpText = ""
                     basicLabel = ""
-                    let dictionary = [1: "apple",
-                                      2: "lemon",
-                                      3: "donut",
-                                      4: "cherry",
-                                      5: "blueberries"]
+                    let dictionary = ["1": "apple",
+                                      "2": "lemon",
+                                      "3": "donut",
+                                      "4": "cherry",
+                                      "5": "blueberries"]
                     
-                    s1 = Int.random(in: 1..<6)
-                    s2 = Int.random(in: 1..<6)
-                    s3 = Int.random(in: 1..<6)
-                    s4 = Int.random(in: 1..<6)
-                    s5 = Int.random(in: 1..<6)
-                    s6 = Int.random(in: 1..<6)
-                    s7 = Int.random(in: 1..<6)
-                    s8 = Int.random(in: 1..<6)
-                    s9 = Int.random(in: 1..<6)
+                    s1 = String(Int.random(in: 1..<6))
+                    s2 = String(Int.random(in: 1..<6))
+                    s3 = String(Int.random(in: 1..<6))
+                    s4 = String(Int.random(in: 1..<6))
+                    s5 = String(Int.random(in: 1..<6))
+                    s6 = String(Int.random(in: 1..<6))
+                    s7 = String(Int.random(in: 1..<6))
+                    s8 = String(Int.random(in: 1..<6))
+                    s9 = String(Int.random(in: 1..<6))
                     
-                    p1 = dictionary[s1] ?? ""
-                    p2 = dictionary[s2] ?? ""
-                    p3 = dictionary[s3] ?? ""
-                    p4 = dictionary[s4] ?? ""
-                    p5 = dictionary[s5] ?? ""
-                    p6 = dictionary[s6] ?? ""
-                    p7 = dictionary[s7] ?? ""
-                    p8 = dictionary[s8] ?? ""
-                    p9 = dictionary[s9] ?? ""
+                    s1 = dictionary[s1] ?? ""
+                    s2 = dictionary[s2] ?? ""
+                    s3 = dictionary[s3] ?? ""
+                    s4 = dictionary[s4] ?? ""
+                    s5 = dictionary[s5] ?? ""
+                    s6 = dictionary[s6] ?? ""
+                    s7 = dictionary[s7] ?? ""
+                    s8 = dictionary[s8] ?? ""
+                    s9 = dictionary[s9] ?? ""
                     
                     // CHECK TOP HORIZONTAL
-                    if (p1 == p2) {
-                        if (p2 == p3) {
+                    if (s1 == s2) {
+                        if (s2 == s3) {
                             tokens += betsize*3
                             totalWin = totalWin + betsize*3
                         }
                     }
                     
                     // CHECK MIDDLE HORIZONTAL
-                    if (p4 == p5) {
-                        if (p5 == p6) {
+                    if (s4 == s5) {
+                        if (s5 == s6) {
                             tokens += betsize*3
                             totalWin = totalWin + betsize*3
                         }
                     }
                     
                     // CHECK BOTTOM HORIZONTAL
-                    if (p7 == p8) {
-                        if (p8 == p9) {
+                    if (s7 == s8) {
+                        if (s8 == s9) {
                             tokens += betsize*3
                             totalWin = totalWin + betsize*3
                         }
                     }
                     
                     // CHECK 1st COLUMN
-                    if (p1 == p4) {
-                        if (p4 == p7) {
+                    if (s1 == s4) {
+                        if (s4 == s7) {
                             tokens += betsize*3
                             totalWin = totalWin + betsize*3
                         }
                     }
                     
                     // CHECK 2nd COLUMN
-                    if (p2 == p5) {
-                        if (p5 == p8) {
+                    if (s2 == s5) {
+                        if (s5 == s8) {
                             tokens += betsize*3
                             totalWin = totalWin + betsize*3
                         }
                     }
                     
                     // CHECK 3rd COLUMN
-                    if (p3 == p6) {
-                        if (p6 == p9) {
+                    if (s3 == s6) {
+                        if (s6 == s9) {
                             tokens += betsize*3
                             totalWin = totalWin + betsize*3
                         }
@@ -126,7 +116,7 @@ struct ContentView: View {
                     
                     
                     if (totalWin > 3) {
-                        basicLabel = "BIG WIN! (+" + String(totalWin) + ")"
+                        basicLabel = "Big Win! (+" + String(totalWin) + ")"
                     }
                     else if (totalWin > 1) {
                         basicLabel = "Winner! (+" + String(totalWin) + ")"
@@ -148,32 +138,32 @@ struct ContentView: View {
                 }
                 
             }, label: {
-                Text("Spin!").fontWeight(.heavy).foregroundColor(.white).padding().background(Color.red).cornerRadius(15)
+                Text("Spin!").fontWeight(.heavy).foregroundColor(.white).padding().background(Color.red).cornerRadius(15).font(.system(size: 36))
                 
             })
             
             HStack(alignment: .center, spacing: 30) {
-                Image(p1).resizable()
+                Image(s1).resizable()
                     .frame(width: 64.0, height: 64.0)
-                Image(p2).resizable()
+                Image(s2).resizable()
                     .frame(width: 64.0, height: 64.0)
-                Image(p3).resizable()
-                    .frame(width: 64.0, height: 64.0)
-            }
-            HStack(alignment: .center, spacing: 30) {
-                Image(p4).resizable()
-                    .frame(width: 64.0, height: 64.0)
-                Image(p5).resizable()
-                    .frame(width: 64.0, height: 64.0)
-                Image(p6).resizable()
+                Image(s3).resizable()
                     .frame(width: 64.0, height: 64.0)
             }
             HStack(alignment: .center, spacing: 30) {
-                Image(p7).resizable()
+                Image(s4).resizable()
                     .frame(width: 64.0, height: 64.0)
-                Image(p8).resizable()
+                Image(s5).resizable()
                     .frame(width: 64.0, height: 64.0)
-                Image(p9).resizable()
+                Image(s6).resizable()
+                    .frame(width: 64.0, height: 64.0)
+            }
+            HStack(alignment: .center, spacing: 30) {
+                Image(s7).resizable()
+                    .frame(width: 64.0, height: 64.0)
+                Image(s8).resizable()
+                    .frame(width: 64.0, height: 64.0)
+                Image(s9).resizable()
                     .frame(width: 64.0, height: 64.0)
             }
             HStack(alignment: .center, spacing: 30) {
@@ -183,7 +173,13 @@ struct ContentView: View {
         }
             HStack(alignment: .center, spacing: 50) {
                 Text("Tokens: " + String(tokens)).fontWeight(.heavy).foregroundColor(.white).padding().background(Color.purple).cornerRadius(15)
-                Text(basicLabel).fontWeight(.heavy).foregroundColor(.white).padding().background(Color.blue).cornerRadius(10)
+                if (basicLabel == "") {
+                    Text("..................").fontWeight(.heavy).foregroundColor(.white).padding().cornerRadius(10)
+                }
+                else {
+                    Text(basicLabel).fontWeight(.heavy).foregroundColor(.white).padding().background(Color.blue).cornerRadius(10)
+                }
+
             }
             HStack(alignment: .center, spacing: 20) {
                 Button(action: {
@@ -215,7 +211,12 @@ struct ContentView: View {
             }
             Text("Bet Size: " + String(betsize)).fontWeight(.heavy).foregroundColor(.white).padding().background(Color.black).cornerRadius(15)
             
-            Text(helpText).fontWeight(.heavy).foregroundColor(.white).padding().background(Color.brown).cornerRadius(15)
+            if (helpText == "") {
+                Text("..........").fontWeight(.heavy).foregroundColor(.white).padding().cornerRadius(15)
+            }
+            else {
+                Text(helpText).fontWeight(.heavy).foregroundColor(.white).padding().background(Color.brown).cornerRadius(15)
+            }
         }
         
         
