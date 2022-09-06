@@ -14,6 +14,7 @@
 		BFC0654728C4224500C537AC /* RiotRush2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0654628C4224500C537AC /* RiotRush2Tests.swift */; };
 		BFC0655128C4224500C537AC /* RiotRush2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0655028C4224500C537AC /* RiotRush2UITests.swift */; };
 		BFC0655328C4224500C537AC /* RiotRush2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0655228C4224500C537AC /* RiotRush2UITestsLaunchTests.swift */; };
+		BFC065CE28C6FE2700C537AC /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC065CD28C6FE2700C537AC /* functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BFC0654C28C4224500C537AC /* RiotRush2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiotRush2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC0655028C4224500C537AC /* RiotRush2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotRush2UITests.swift; sourceTree = "<group>"; };
 		BFC0655228C4224500C537AC /* RiotRush2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotRush2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFC065CD28C6FE2700C537AC /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BFC0653528C4224300C537AC /* RiotRush2App.swift */,
 				BFC0653728C4224300C537AC /* ContentView.swift */,
+				BFC065CD28C6FE2700C537AC /* functions.swift */,
 				BFC0653928C4224400C537AC /* Assets.xcassets */,
 				BFC0653B28C4224400C537AC /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				BFC0653828C4224300C537AC /* ContentView.swift in Sources */,
 				BFC0653628C4224300C537AC /* RiotRush2App.swift in Sources */,
+				BFC065CE28C6FE2700C537AC /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
