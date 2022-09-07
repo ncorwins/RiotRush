@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC0653628C4224300C537AC /* RiotRush2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0653528C4224300C537AC /* RiotRush2App.swift */; };
+		BFC0653828C4224300C537AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0653728C4224300C537AC /* ContentView.swift */; };
+		BFC0653A28C4224400C537AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC0653928C4224400C537AC /* Assets.xcassets */; };
+		BFC0653D28C4224400C537AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC0653C28C4224400C537AC /* Preview Assets.xcassets */; };
+		BFC0654728C4224500C537AC /* RiotRush2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0654628C4224500C537AC /* RiotRush2Tests.swift */; };
+		BFC0655128C4224500C537AC /* RiotRush2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0655028C4224500C537AC /* RiotRush2UITests.swift */; };
+		BFC0655328C4224500C537AC /* RiotRush2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0655228C4224500C537AC /* RiotRush2UITestsLaunchTests.swift */; };
+		BFC065CE28C6FE2700C537AC /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC065CD28C6FE2700C537AC /* functions.swift */; };
+		D952B75928C81A5800154874 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D952B75828C81A5800154874 /* HomeView.swift */; };
+		D952B75B28C81A6000154874 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D952B75A28C81A6000154874 /* PlayView.swift */; };
+		D952B75D28C81A6B00154874 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D952B75C28C81A6B00154874 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC0654328C4224500C537AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC0652A28C4224300C537AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC0653128C4224300C537AC;
+			remoteInfo = RiotRush2;
+		};
+		BFC0654D28C4224500C537AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC0652A28C4224300C537AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC0653128C4224300C537AC;
+			remoteInfo = RiotRush2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFC0653228C4224300C537AC /* RiotRush2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiotRush2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC0653528C4224300C537AC /* RiotRush2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotRush2App.swift; sourceTree = "<group>"; };
+		BFC0653728C4224300C537AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFC0653928C4224400C537AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC0653C28C4224400C537AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFC0654228C4224500C537AC /* RiotRush2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiotRush2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC0654628C4224500C537AC /* RiotRush2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotRush2Tests.swift; sourceTree = "<group>"; };
+		BFC0654C28C4224500C537AC /* RiotRush2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiotRush2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC0655028C4224500C537AC /* RiotRush2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotRush2UITests.swift; sourceTree = "<group>"; };
+		BFC0655228C4224500C537AC /* RiotRush2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiotRush2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFC065CD28C6FE2700C537AC /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		D952B75828C81A5800154874 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D952B75A28C81A6000154874 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		D952B75C28C81A6B00154874 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC0652F28C4224300C537AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0653F28C4224500C537AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0654928C4224500C537AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC0652928C4224300C537AC = {
+			isa = PBXGroup;
+			children = (
+				BFC0653428C4224300C537AC /* RiotRush2 */,
+				BFC0654528C4224500C537AC /* RiotRush2Tests */,
+				BFC0654F28C4224500C537AC /* RiotRush2UITests */,
+				BFC0653328C4224300C537AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC0653328C4224300C537AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0653228C4224300C537AC /* RiotRush2.app */,
+				BFC0654228C4224500C537AC /* RiotRush2Tests.xctest */,
+				BFC0654C28C4224500C537AC /* RiotRush2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC0653428C4224300C537AC /* RiotRush2 */ = {
+			isa = PBXGroup;
+			children = (
+				D952B75728C81A3B00154874 /* Views */,
+				BFC0653528C4224300C537AC /* RiotRush2App.swift */,
+				BFC0653728C4224300C537AC /* ContentView.swift */,
+				BFC065CD28C6FE2700C537AC /* functions.swift */,
+				BFC0653928C4224400C537AC /* Assets.xcassets */,
+				BFC0653B28C4224400C537AC /* Preview Content */,
+			);
+			path = RiotRush2;
+			sourceTree = "<group>";
+		};
+		BFC0653B28C4224400C537AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0653C28C4224400C537AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFC0654528C4224500C537AC /* RiotRush2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0654628C4224500C537AC /* RiotRush2Tests.swift */,
+			);
+			path = RiotRush2Tests;
+			sourceTree = "<group>";
+		};
+		BFC0654F28C4224500C537AC /* RiotRush2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC0655028C4224500C537AC /* RiotRush2UITests.swift */,
+				BFC0655228C4224500C537AC /* RiotRush2UITestsLaunchTests.swift */,
+			);
+			path = RiotRush2UITests;
+			sourceTree = "<group>";
+		};
+		D952B75728C81A3B00154874 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D952B75828C81A5800154874 /* HomeView.swift */,
+				D952B75A28C81A6000154874 /* PlayView.swift */,
+				D952B75C28C81A6B00154874 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC0653128C4224300C537AC /* RiotRush2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC0655628C4224500C537AC /* Build configuration list for PBXNativeTarget "RiotRush2" */;
+			buildPhases = (
+				BFC0652E28C4224300C537AC /* Sources */,
+				BFC0652F28C4224300C537AC /* Frameworks */,
+				BFC0653028C4224300C537AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiotRush2;
+			productName = RiotRush2;
+			productReference = BFC0653228C4224300C537AC /* RiotRush2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC0654128C4224500C537AC /* RiotRush2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC0655928C4224500C537AC /* Build configuration list for PBXNativeTarget "RiotRush2Tests" */;
+			buildPhases = (
+				BFC0653E28C4224500C537AC /* Sources */,
+				BFC0653F28C4224500C537AC /* Frameworks */,
+				BFC0654028C4224500C537AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC0654428C4224500C537AC /* PBXTargetDependency */,
+			);
+			name = RiotRush2Tests;
+			productName = RiotRush2Tests;
+			productReference = BFC0654228C4224500C537AC /* RiotRush2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFC0654B28C4224500C537AC /* RiotRush2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC0655C28C4224500C537AC /* Build configuration list for PBXNativeTarget "RiotRush2UITests" */;
+			buildPhases = (
+				BFC0654828C4224500C537AC /* Sources */,
+				BFC0654928C4224500C537AC /* Frameworks */,
+				BFC0654A28C4224500C537AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC0654E28C4224500C537AC /* PBXTargetDependency */,
+			);
+			name = RiotRush2UITests;
+			productName = RiotRush2UITests;
+			productReference = BFC0654C28C4224500C537AC /* RiotRush2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC0652A28C4224300C537AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BFC0653128C4224300C537AC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BFC0654128C4224500C537AC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BFC0653128C4224300C537AC;
+					};
+					BFC0654B28C4224500C537AC = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BFC0653128C4224300C537AC;
+					};
+				};
+			};
+			buildConfigurationList = BFC0652D28C4224300C537AC /* Build configuration list for PBXProject "RiotRush2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC0652928C4224300C537AC;
+			productRefGroup = BFC0653328C4224300C537AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC0653128C4224300C537AC /* RiotRush2 */,
+				BFC0654128C4224500C537AC /* RiotRush2Tests */,
+				BFC0654B28C4224500C537AC /* RiotRush2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC0653028C4224300C537AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0653D28C4224400C537AC /* Preview Assets.xcassets in Resources */,
+				BFC0653A28C4224400C537AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0654028C4224500C537AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0654A28C4224500C537AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC0652E28C4224300C537AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0653828C4224300C537AC /* ContentView.swift in Sources */,
+				D952B75928C81A5800154874 /* HomeView.swift in Sources */,
+				BFC0653628C4224300C537AC /* RiotRush2App.swift in Sources */,
+				D952B75D28C81A6B00154874 /* SettingsView.swift in Sources */,
+				D952B75B28C81A6000154874 /* PlayView.swift in Sources */,
+				BFC065CE28C6FE2700C537AC /* functions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0653E28C4224500C537AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0654728C4224500C537AC /* RiotRush2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC0654828C4224500C537AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC0655128C4224500C537AC /* RiotRush2UITests.swift in Sources */,
+				BFC0655328C4224500C537AC /* RiotRush2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC0654428C4224500C537AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC0653128C4224300C537AC /* RiotRush2 */;
+			targetProxy = BFC0654328C4224500C537AC /* PBXContainerItemProxy */;
+		};
+		BFC0654E28C4224500C537AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC0653128C4224300C537AC /* RiotRush2 */;
+			targetProxy = BFC0654D28C4224500C537AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFC0655428C4224500C537AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC0655528C4224500C537AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC0655728C4224500C537AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RiotRush2/Preview Content\"";
+				DEVELOPMENT_TEAM = G3SLX3QD9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.CorwinShah-Nathan.RiotRush2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFC0655828C4224500C537AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RiotRush2/Preview Content\"";
+				DEVELOPMENT_TEAM = G3SLX3QD9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.CorwinShah-Nathan.RiotRush2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFC0655A28C4224500C537AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3SLX3QD9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.CorwinShah-Nathan.RiotRush2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiotRush2.app/RiotRush2";
+			};
+			name = Debug;
+		};
+		BFC0655B28C4224500C537AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3SLX3QD9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.CorwinShah-Nathan.RiotRush2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiotRush2.app/RiotRush2";
+			};
+			name = Release;
+		};
+		BFC0655D28C4224500C537AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3SLX3QD9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.CorwinShah-Nathan.RiotRush2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiotRush2;
+			};
+			name = Debug;
+		};
+		BFC0655E28C4224500C537AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3SLX3QD9B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.asu.CorwinShah-Nathan.RiotRush2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiotRush2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC0652D28C4224300C537AC /* Build configuration list for PBXProject "RiotRush2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0655428C4224500C537AC /* Debug */,
+				BFC0655528C4224500C537AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC0655628C4224500C537AC /* Build configuration list for PBXNativeTarget "RiotRush2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0655728C4224500C537AC /* Debug */,
+				BFC0655828C4224500C537AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC0655928C4224500C537AC /* Build configuration list for PBXNativeTarget "RiotRush2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0655A28C4224500C537AC /* Debug */,
+				BFC0655B28C4224500C537AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC0655C28C4224500C537AC /* Build configuration list for PBXNativeTarget "RiotRush2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC0655D28C4224500C537AC /* Debug */,
+				BFC0655E28C4224500C537AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC0652A28C4224300C537AC /* Project object */;
+}
